@@ -1,0 +1,15 @@
+{
+  "system_version": "0.1.0",
+  "last_updated": "2026-05-05T10:00:00Z",
+  "master_agent": {
+    "name": "Master Agent",
+    "status": "idle",
+    "last_active": "2026-05-05T10:00:00Z"
+  },
+  "agents": {},
+  "version_control": {
+    "current_version": "0.1.0",
+    "version_file": "shared-context/version-control/VERSION",
+    "merge_log": "master-agent/merge-log/"
+  }
+}
