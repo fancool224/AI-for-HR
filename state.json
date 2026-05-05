@@ -1,12 +1,21 @@
 {
   "system_version": "0.1.0",
-  "last_updated": "2026-05-05T10:00:00Z",
+  "last_updated": "2026-05-05T19:50:00Z",
   "master_agent": {
     "name": "Master Agent",
     "status": "idle",
-    "last_active": "2026-05-05T10:00:00Z"
+    "last_active": "2026-05-05T19:50:00Z"
   },
-  "agents": {},
+  "agents": {
+    "future-work-clarifier": {
+      "name": "未来工作厘定助手",
+      "emoji": "🧭",
+      "path": "agents/future-work-clarifier/",
+      "trigger_words": ["未来工作", "工作厘定", "AI时代HR变化", "工作重构", "HR共创"],
+      "status": "ready",
+      "last_activated": null
+    }
+  },
   "version_control": {
     "current_version": "0.1.0",
     "version_file": "shared-context/version-control/VERSION",

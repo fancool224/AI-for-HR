@@ -1,0 +1,38 @@
+# Git 行尾符与文件类型配置
+# 统一跨平台协作时的行尾行为，防止 Windows/Mac/Linux 之间出现 ^M 污染
+
+# 统一所有文本文件行尾为 LF（Unix 风格）
+* text=auto eol=lf
+
+# 明确定义二进制文件，Git 不做行尾转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.xlsx binary
+*.docx binary
+*.pptx binary
+*.mp4 binary
+*.mp3 binary
+
+# 脚本文件明确声明为 LF
+*.sh text eol=lf
+*.bash text eol=lf
+*.py text eol=lf
+
+# Markdown 文件也使用 LF
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
